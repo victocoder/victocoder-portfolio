@@ -1,3 +1,4 @@
+import Navigation from "@/components/Navigation";
 import { ModeToggle } from "@/components/theme-toggler";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -5,9 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <h1>Hello world</h1>
-      <Button > Click Me</Button>
-      <ModeToggle />
+      <Navigation />
     </div>
   );
 }

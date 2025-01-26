@@ -1,0 +1,24 @@
+import React from 'react'
+
+const Navigation = () => {
+  return (
+    <div className='flex  justify-between items-center px-4 py-4'>
+      
+          <div>
+            <a href="">Mesfin Girma</a>
+          </div>
+          <ul className='flex gap-5'>
+            <li>
+              <a href="">Home</a>
+           
+            </li>
+            <li><a href="">Projects</a></li>
+             <li> <a href="">Work</a></li>
+              <li><a href="">Testimonials</a></li>
+          </ul>
+        </div>
+   
+  )
+}
+
+export default Navigation
