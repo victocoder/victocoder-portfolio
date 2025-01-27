@@ -1,4 +1,5 @@
 import React from 'react'
+import { ModeToggle } from './theme-toggler'
 
 const Navigation = () => {
   return (
@@ -16,6 +17,7 @@ const Navigation = () => {
              <li> <a href="">Work</a></li>
               <li><a href="">Testimonials</a></li>
           </ul>
+          <ModeToggle/>
         </div>
    
   )
