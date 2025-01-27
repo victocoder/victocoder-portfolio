@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Navigation from "@/components/Navigation";
+import Projects from "@/components/Projects";
 import { ModeToggle } from "@/components/theme-toggler";
 import { Button } from "@/components/ui/button";
 import Work from "@/components/Work";
@@ -11,6 +12,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <Work />
+      <Projects />
     </div>
   );
 }
