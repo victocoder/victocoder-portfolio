@@ -61,7 +61,7 @@ export const projects = [
         challenges:['Fetching online drivers from the backend and displaying the car images in optimized manner']
     },
     {
-        title:"VIP TAXI RIDER APP",
+        title:"RIDER APP OF VIP TAXI",
         imageUrls:[''],
         videoUrls:[''],
         description:"The app is used by vip clients and customers to hail and book a luxury car to use it as a personal ride",
@@ -69,7 +69,7 @@ export const projects = [
         challenges:['Fetching online drivers from the backend and displaying the car images in optimized manner']
     },
     {
-        title:"VIP TAXI DRIVER APP",
+        title:"DRIVER APP OF VIP TAXI ",
         imageUrls:[''],
         videoUrls:[''],
         description:"The App is used by vip taxi drivers , it trackes the location of the driver in realtime , it properly asks the driver all the necessary permssions like background process, location and notification conforming to playstore guidlines, it calculates fare taking in consideration the waiting time and the destance traveled",
@@ -77,7 +77,7 @@ export const projects = [
         challenges:['Creating the algorithm that calculates the fair ', 'optimizing the background process for less batry utillization']
     },
     {
-        title:"VIP TAXI DASHBOARD",
+        title:"DASHBOARD OF VIP TAXI ",
         imageUrls:[''],
         videoUrls:[''],
         description:"The dashboard i have designed and created full functional to manage a ride sharing application, it displays all analytical data, it shows all deployed drivers on different locaitons",
@@ -85,7 +85,7 @@ export const projects = [
         challenges:['Fetching online drivers from the backend and displaying the car images in optimized manner']
     },
     {
-        title:"VIP TAXI BACKEND",
+        title:"BACKEND OF VIP TAXI ",
         imageUrls:[''],
         videoUrls:[''],
         description:"The app is used by vip clients and customers to hail and book a luxury car to use it as a personal ride",
