@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='flex justify-center items-center pt-[150px] flex-col gap-4 px-4'>
+    <div className='flex justify-center items-center pt-[150px] flex-col gap-4 px-4 pb-[180px]'>
         <h1 className='text-6xl md:text-8xl'>Mesfin Girma</h1>
       <p>I am Software Developer</p>
       <p className='text-center'>A professional in solving tech related problems and helping companies and individuals own high quality software appications</p>
