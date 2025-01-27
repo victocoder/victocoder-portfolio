@@ -7,7 +7,7 @@ const Work = () => {
     <div className='flex flex-col justify-center items-center max-w-[1200px] m-auto'>
       <h1 className='text-4xl'>Experience</h1>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20'>
         {
             workExperience.map((work,index)=>(
                 <div key={index}>
