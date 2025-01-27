@@ -3,7 +3,7 @@ import { ModeToggle } from './theme-toggler'
 
 const Navigation = () => {
   return (
-    <div className='flex  justify-between items-center px-4 py-4'>
+    <div className='flex  justify-between items-center max-w-[1200px] m-auto px-10 py-4'>
       
           <div>
             <a href="">Mesfin Girma</a>
