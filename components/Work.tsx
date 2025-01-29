@@ -4,13 +4,13 @@ import React from 'react'
 
 const Work = () => {
   return (
-    <div className='flex flex-col justify-center items-center max-w-[1200px] m-auto'>
-      <h1 className='text-4xl'>Experience</h1>
+    <div className='flex flex-col tems-center max-w-[1200px] m-auto'>
+      <h1 className='text-4xl text-center'>Experience</h1>
 
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20'>
         {
             workExperience.map((work,index)=>(
-                <div key={index}>
+                <div key={index} className='flex justify-start  flex-col px-4'>
                     <h1> {work.company}</h1>
                     <p>{work.type}</p>
                     <p>{work.year}</p>
@@ -18,8 +18,8 @@ const Work = () => {
                     <p>{work.descreption}</p>
                     {
                     work.responsibility.map((resp)=>(
-                        <div key={resp}>
-                            <p><CheckCheck /> {resp}</p>
+                        <div key={resp} className='flex justify-start items-start flex-col'>
+                            <div className='flex justify-start items-center gap-4'><CheckCheck /> {resp}</div>
                         </div>
                     ))
                     }
