@@ -10,7 +10,7 @@ const Work = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20'>
         {
             workExperience.map((work,index)=>(
-                <div key={index} className='flex justify-start  flex-col px-4'>
+                <div key={index} className='flex justify-start  flex-col  border border-blue-400  px-4 py-6 rounded-md'>
                     <h1> {work.company}</h1>
                     <p>{work.type}</p>
                     <p>{work.year}</p>
